@@ -1,0 +1,25 @@
+
+/*cambiar imagen tamaño para el heading*/
+
+
+header{
+    padding: 20px;
+    background-color:#494949;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+header img{
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h1{
+    margin-left: 30px;
+    padding-top: 20px;
+    color: #fff;
+}
