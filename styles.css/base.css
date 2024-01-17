@@ -1,26 +1,170 @@
 
-/*cambiar imagen tamaño para el heading usar de referencia code pen*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 
+#container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 20px;
+}
 
 header{
-    padding: 20px;
-    background-color:#494949;
+    padding: 50px;
+    background-color: #333;
     text-align: center;
     display: flex;
     justify-content: center;
-
-
+    
+    
 }
 
 header img{
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
     border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+       
 }
+
 
 h1{
     margin-left: 30px;
-    padding-top: 20px;
+    padding-top:100px;
     color: #fff;
+    font-size: 3em;
 }
+
+nav{
+    background-color: #3498db;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul{
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration:none;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #2980b9;
+    margin-bottom:10px ; /*para el menu: para ajustar el espacio entre lineas de la lista*/
+
+}
+
+
+nav a:hover{
+    background-color: #1a5376;
+}
+
+
+main{
+    font-size: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;/*es espacio interno de mi contenido*/
+}
+
+h2{
+    color: #333; /*Color del texto del encabezdo h2*/
+    text-align: center;/*centra el texto horizontalmente*/
+    margin-bottom: 50px;
+}
+
+
+/*card 1 seccion de activities*/
+.card{
+    background-color: #f0f0f0; 
+    border:  1px solid#ccc;
+    border-radius: 8px; /*Bordes redondeados de las tajetas*/
+    border-bottom: 20px;/*esta es para el margen inferior de las tarjetas*/
+    padding: 15px;/*el espacio interno para la tarjeta*/
+}
+
+.card ul{
+    text-align: center;
+}
+
+h3{
+    color: #333;
+    text-align: center;
+}
+
+.card li{
+    margin-bottom: 10px;
+}
+
+.card a{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.card a:hover{
+    background-color: #ddd;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;/*para eliminar el relleno interno de mi lista*/
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+/*cambios para la card de informacion*/
+.card +.card h3{
+    color: #333;
+    
+}
+
+.card+.card p{
+    color: #333;
+    text-align: center;
+}
+
+
+/*mi pie de pagina*/
+
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    border-bottom: 20px;
+}
+
+footer img{
+    max-width: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+
+
+
 
