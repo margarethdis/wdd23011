@@ -228,37 +228,6 @@ nav a:hover {
     background-color: #1a5376;
 }
 
-/* Media query para pantallas más pequeñas */
-@media screen and (max-width: 600px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav a {
-        margin-bottom: 10px; /* Espaciado entre elementos del menú en pantalla pequeña */
-    }
-}
-
-main {
-    font-size: 2em;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h2 {
-    color: #333;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-/* ... (resto de tu código) ... */
-
 /*mi pie de pagina*/
 footer {
     max-width: 1200px;
