@@ -1,0 +1,10 @@
+
+body {
+    /* reglas CSS específicas para pantallas más grandes iran  aaquí */
+    background-color: lightgray;
+    font-size: 18px;
+}
+
+header {
+    padding: 20px;
+}
